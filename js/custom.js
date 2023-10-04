@@ -7,12 +7,19 @@ function getYear() {
 
 getYear();
 
-/** google_map js **/
+function toggleMenu() {
+    var menuToggle = document.getElementById("dropmenu");
+    var menudrop = document.getElementsByClassName("dropmenu-item");
 
-function myMap() {
-    var mapProp = {
-        center: new google.maps.LatLng(40.712775, -74.005973),
-        zoom: 18,
-    };
-    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+    //if mousse on menu
+    menuToggle.onmouseover = function() {
+        menudrop[0].style.display = "block";
+    }
+
+    //if mouse out menu
+    menuToggle.onmouseout = function() {
+        menudrop[0].style.display = "none";
+    }
 }
+
+toggleMenu();

@@ -881,3 +881,35 @@ a:focus {
   padding-right: 10px;
 }
 /*# sourceMappingURL=style.css.map */
+
+.cont-conseil{
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.head-cont-conseil{
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.text-cont-conseil{
+  text-align: justify;
+}
+
+#bad-cont{
+  border-radius: 5px;
+  background-color: #EFAAAA;
+}
+
+#good-cont{
+  border-radius: 5px;
+  background-color: #66CDB2;
+}
+
+#bad{
+  padding-bottom: 80px;
+}
